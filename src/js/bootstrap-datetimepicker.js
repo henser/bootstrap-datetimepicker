@@ -1207,6 +1207,7 @@ THE SOFTWARE.
                 picker.widget.removeClass('picker-open');
             }
             else {
+                $('.picker-open').hide().removeClass('picker-open');
                 picker.widget.show();
                 picker.widget.addClass('picker-open');
             }
